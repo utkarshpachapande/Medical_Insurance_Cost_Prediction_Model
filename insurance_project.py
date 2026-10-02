@@ -13,7 +13,7 @@ from src.explain import format_feature_label, scenario_impacts
 from src.model import load_bundle, train_and_save
 
 st.set_page_config(
-    page_title="MedPredict AI | Insurance Cost Intelligence",
+    page_title="Explainable Medical Insurance Cost Intelligence",
     page_icon="🧬",
     layout="wide",
     initial_sidebar_state="expanded",
