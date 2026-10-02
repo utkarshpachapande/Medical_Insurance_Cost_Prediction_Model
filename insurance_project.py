@@ -297,19 +297,8 @@ with tab4:
         "Data → Validation → One-Hot Encoding → 4 Regressors → 5-Fold CV → Best Model → Prediction + Uncertainty → Explainability",
         language="text",
     )
-    st.markdown("""
-    **What changed from the internship prototype**
-
-    - Replaced manual category encoding with a reusable `ColumnTransformer` pipeline.
-    - Benchmarked multiple regressors instead of presenting three unvalidated predictions.
-    - Added cross-validation, holdout metrics, model selection, and a persisted model artifact.
-    - Added an empirical prediction interval from out-of-fold residuals.
-    - Added local counterfactual explanations and global feature-impact analysis.
-    - Rebuilt the Streamlit experience around a product-style dashboard rather than a basic form.
-    - Added dataset exploration, scenario analysis, and clear model limitations.
-    """)
-    st.markdown("### Resume-ready positioning")
-    st.markdown("**MedPredict AI — Explainable Medical Insurance Cost Intelligence**")
+    
+    st.markdown("**Explainable Medical Insurance Cost Intelligence**")
     st.write("An end-to-end regression product that compares four ML models using 5-fold cross-validation, selects the best estimator, serves predictions through Streamlit, quantifies empirical uncertainty, and generates counterfactual explanations from a real insurance dataset.")
     st.markdown("### Repository structure")
     st.code("""app.py
