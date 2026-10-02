@@ -1,0 +1,43 @@
+{
+  "selected_model": "Gradient Boosting",
+  "metrics": [
+    {
+      "Model": "Gradient Boosting",
+      "CV MAE ($)": 1720.6093,
+      "CV RMSE ($)": 4605.7866,
+      "CV R\u00b2": 0.853,
+      "Holdout MAE ($)": 1541.0534,
+      "Holdout RMSE ($)": 4381.5508,
+      "Holdout R\u00b2": 0.8763
+    },
+    {
+      "Model": "Extra Trees",
+      "CV MAE ($)": 2550.1729,
+      "CV RMSE ($)": 4767.7596,
+      "CV R\u00b2": 0.8425,
+      "Holdout MAE ($)": 2366.8503,
+      "Holdout RMSE ($)": 4592.4376,
+      "Holdout R\u00b2": 0.8642
+    },
+    {
+      "Model": "Random Forest",
+      "CV MAE ($)": 2652.5456,
+      "CV RMSE ($)": 4774.0018,
+      "CV R\u00b2": 0.8421,
+      "Holdout MAE ($)": 2423.7772,
+      "Holdout RMSE ($)": 4451.4863,
+      "Holdout R\u00b2": 0.8724
+    },
+    {
+      "Model": "Linear Regression",
+      "CV MAE ($)": 4234.9836,
+      "CV RMSE ($)": 6143.0594,
+      "CV R\u00b2": 0.7385,
+      "Holdout MAE ($)": 4181.1945,
+      "Holdout RMSE ($)": 5796.2847,
+      "Holdout R\u00b2": 0.7836
+    }
+  ],
+  "dataset_size": 1338,
+  "artifact": "artifacts/model_bundle.joblib"
+}
