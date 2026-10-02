@@ -119,7 +119,7 @@ st.markdown(
     f"""
     <div class="hero">
       <div class="eyebrow">ML • Explainability • Decision Intelligence</div>
-      <h1>MedPredict AI</h1>
+      <h1>Explainable Medical Insurance Cost Intelligence</h1>
       <p>Insurance-cost intelligence redesigned as a product: benchmark multiple regressors, estimate a personalized annual charge, show an uncertainty band, and explain the biggest drivers behind the prediction.</p>
       <span class="chip">{len(data):,} training records</span>
       <span class="chip">4 regression models</span>
