@@ -1,19 +1,5 @@
 # Explainable Medical Insurance Cost Intelligence
 
-A redesigned, portfolio-grade version of the original Medical Insurance Cost Prediction internship project.
-
-## Why this version is stronger
-
-The original project proved the basic idea with Linear Regression, Random Forest, a neural network, and a Streamlit form. This version turns that prototype into a complete ML product:
-
-- **Model benchmarking:** Linear Regression, Random Forest, Gradient Boosting, and Extra Trees.
-- **Robust preprocessing:** reusable `ColumnTransformer` + `Pipeline` instead of manual one-hot encoding.
-- **Evaluation:** 5-fold cross-validation plus holdout MAE, RMSE, and R².
-- **Automatic model selection:** the best model is selected by RMSE and persisted with `joblib`.
-- **Uncertainty:** an empirical 80% prediction band from out-of-fold residuals.
-- **Explainability:** local counterfactual feature impacts + global feature-signal analysis.
-- **Interactive product UI:** profile builder, prediction gauge, what-if scenarios, model lab, data explorer, and explainability dashboard.
-- **Deployment-friendly stack:** removes the TensorFlow release-candidate dependency that made the earlier app fragile on Streamlit Cloud.
 
 ## Dataset
 
@@ -50,7 +36,7 @@ With the included dataset and fixed random seed, the current training run select
 
 ## Resume bullets
 
-**MedPredict AI — Explainable Medical Insurance Cost Intelligence**  
+**Explainable Medical Insurance Cost Intelligence**  
 - Engineered an end-to-end insurance-cost regression system with reusable preprocessing pipelines and four benchmark models, using 5-fold cross-validation and RMSE-based model selection.
 - Added empirical prediction intervals, what-if scenario analysis, and model-agnostic counterfactual explanations to make regression outputs interpretable.
 - Built a production-style Streamlit dashboard with model benchmarking, data exploration, explainability, and persisted artifacts for deployment.
