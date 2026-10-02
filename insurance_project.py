@@ -154,7 +154,7 @@ res_q10, res_q90 = np.quantile(bundle.residuals, [0.10, 0.90])
 low = max(0.0, pred + res_q10)
 high = max(low, pred + res_q90)
 
-summary = data.describe(numeric_only=True)
+summary = data.select_dtypes(include="number").describe()
 
 c1, c2, c3, c4 = st.columns(4)
 with c1:
